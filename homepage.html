@@ -1,0 +1,216 @@
+<!DOCTYPE html>
+<html lang="en.ca">
+  <head>
+    <title>Crafted Kitchen</title>
+<style>
+
+  body {
+  margin: 0;
+  padding: 0;
+  background-color: #C1DBE8;
+  font-family: Crimson Text; 
+}
+
+/* Container, Margin */
+.container {
+  max-width: 1200px;       
+  margin: 0 auto;          
+  padding: 0 20px;         
+}
+
+.nav-wrapper {
+      display: flex;
+      align-items: center;
+      padding: 10px 0;
+    }
+
+/* space for star logo */
+.logo-space {
+      width: 150px;   
+      height: auto;
+      margin-right: 20px;
+    }
+
+/* Nav Bar */
+.navbar {
+      background-color: #FFF1B5;
+      padding: 14px 0;
+      border-radius: 30px; 
+      flex-grow: 1;
+    }
+
+/* evenly spaced links */
+.navbar ul {
+      list-style: none;
+      margin: 0;
+      padding: 0 40px;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+    }
+
+.navbar li a {
+      text-decoration: none;
+      color: black;
+      font-size: 17px;
+    }
+
+.navbar li a:hover {
+      opacity: 0.7;
+    }
+
+/* Title + Description */
+.website-title {
+  color: #587095; 
+  text-align: center;
+  margin-top: -70px;
+  padding: 0 40px;
+}
+
+.website-title h1 {
+  font-size: 90px;
+  font-family: Croissant One; 
+  margin-bottom: 10px;
+}
+
+.title-description  {
+    color: #587095;
+    text-align: center;
+    margin-top: 100px;
+}
+
+.title-description p {
+    font-size: 20px;
+    margin: 5px 0; 
+}
+
+/* View my work button */
+.viewmyworkbtn {
+  background-color: #E8E2D4;
+  color: black;
+  font-size: 15px;
+  padding: 12px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+  
+.viewmyworkbtn:hover {
+  background-color: #CFC7B3;
+}
+
+.button-wrapper {
+  text-align: center;
+  margin-top: 20px;
+}
+
+/* Beige retangle */
+.beige-rectangle {
+  width: 1200px;
+  height: 500px;
+  background-color: #F3EBD8;
+  margin: 250px auto; 
+  display: flex;
+  align-items: flex-start;          
+  justify-content: flex-start;
+  padding-left: 80px; 
+  padding-top: 50px;
+}
+
+/* Homepage description text +  About me button */
+.beige-content {
+  display: flex;
+  flex-direction: column;
+  align-items: center; 
+}
+
+
+/* Homepage descripton in beige rectangle */
+.homepage-description {
+  color: black;
+  max-width: 600px;   
+  text-align: center;
+  line-height: 1.5;
+  
+}
+
+.homepage-description p {
+  font-size: 40px;
+  font-family: Crimson Text;
+  margin: 5px 0;
+}
+
+/* About Me button */
+.aboutme-btn {
+  margin-top: 20px; 
+  background-color: #FFF1B5;
+  color: black;
+  font-size: 18px;
+  font-family: Crimson Text; 
+  padding: 12px 75px;
+  border: 3px solid white;
+  border-radius: 20px;
+  cursor: pointer;
+}
+
+.aboutme-btn:hover {
+  opacity: 0.7;
+}
+  
+  </style>
+</head>
+
+<body>
+
+<!-- Container, Margin -->
+  <div class="container">
+
+<!-- Star Doodle Logo -->
+<div class="nav-wrapper">
+    <img class="logo-space" src="StarLogo.png" alt="Logo">
+
+<!-- NAVIGATION BAR -->  
+<nav class="navbar">
+      <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="about.html">About me</a></li>
+        <li><a href="gallery.html">Gallery</a></li>
+        <li><a href="contact.html">Contact</a></li>
+      </ul>
+    </nav>
+  </div>
+
+<!-- WEBSITE TITLE -->
+<div class="website-title">
+    <h1>CRAFTED EATS</h1>
+</div>
+
+<div class="title-description">
+  <p>Cooking Showcase by Yours Truly</p>
+  <p>Bernice Tang</p>
+    </div>
+
+<!-- View my work button -->
+<div class="button-wrapper">
+      <button class="viewmyworkbtn">View my work Button</button>
+    </div>
+
+<!-- Beige rectangle + homepage description + About me button -->
+<div class="beige-rectangle">
+<div class="beige-content">
+<div class="homepage-description">
+  <p>Welcome to my little corner of </p> 
+  <p>the kitchen! This site is where</p>
+  <p>I share the dishes that shaped</p>
+  <p>my cooking journey — the</p> 
+  <p>meals I’ve learned, loved, and</p>
+  <p>crafted over the years.</p>
+</div>
+<button class="aboutme-btn">About Me</button>
+</div>
+    
+      </div>
+    </div> 
+  </body>
+</html>
+
