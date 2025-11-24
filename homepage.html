@@ -111,19 +111,17 @@
   background-color: #F3EBD8;
   margin: 250px auto; 
   display: flex;
-  align-items: flex-start;          
+  align-items: center;          
   justify-content: flex-start;
-  padding-left: 80px; 
-  padding-top: 50px;
+  padding: 0 80px;
+  gap: 40px;
 }
 
-/* Homepage description text +  About me button */
-.beige-content {
+.beige-left {
   display: flex;
-  flex-direction: column;
-  align-items: center; 
+  flex-direction: column; 
+  max-width: 500px;       
 }
-
 
 /* Homepage descripton in beige rectangle */
 .homepage-description {
@@ -135,7 +133,7 @@
 }
 
 .homepage-description p {
-  font-size: 40px;
+  font-size: 30px;
   font-family: Crimson Text;
   margin: 5px 0;
 }
@@ -155,6 +153,14 @@
 
 .aboutme-btn:hover {
   opacity: 0.7;
+}
+
+/*  Homepage Salad Image */
+.beige-right img {
+  max-height: 400px;    
+  height: auto;
+  width: auto;
+  margin-left: 20px;
 }
   
   </style>
@@ -197,7 +203,7 @@
 
 <!-- Beige rectangle + homepage description + About me button -->
 <div class="beige-rectangle">
-<div class="beige-content">
+<div class="beige-left">
 <div class="homepage-description">
   <p>Welcome to my little corner of </p> 
   <p>the kitchen! This site is where</p>
@@ -208,8 +214,10 @@
 </div>
 <button class="aboutme-btn">About Me</button>
 </div>
-    
+<div class="beige-right">
+    <img src="Homepage-Salad-Image.png" alt="Salad Image">    
       </div>
+  
     </div> 
   </body>
 </html>
