@@ -4,8 +4,13 @@
     <title>Crafted Kitchen</title>
 <style>
 
+  html {
+    width: 1440px;
+  }
+  
   body {
-  margin: 0;
+  width: 1200px;
+  margin: 0 auto;
   padding: 0;
   background-color: #C1DBE8;
   font-family: Crimson Text; 
@@ -13,7 +18,7 @@
 
 /* Container, Margin */
 .container {
-  max-width: 1200px;       
+  width: 100%;
   margin: 0 auto;          
   padding: 0 20px;         
 }
@@ -112,8 +117,7 @@
   margin: 250px auto; 
   display: flex;
   align-items: center;          
-  justify-content: flex-start;
-  padding: 0 80px;
+  justify-content: center;
   gap: 40px;
 }
 
@@ -162,6 +166,14 @@
   width: auto;
   margin-left: 20px;
 }
+
+.repetitve-text-rectangle {
+  width: 1200px;
+  height: 110px; 
+  background-color: white;
+  margin: 40px auto 0;
+  border: 3px solid #E1C1C6;
+}
   
   </style>
 </head>
@@ -201,6 +213,7 @@
       <button class="viewmyworkbtn">View my work Button</button>
     </div>
 
+<!-- Hero image div, find an image, edit it on adobe, use stock photo -->
 <!-- Beige rectangle + homepage description + About me button -->
 <div class="beige-rectangle">
 <div class="beige-left">
@@ -211,14 +224,20 @@
   <p>my cooking journey — the</p> 
   <p>meals I’ve learned, loved, and</p>
   <p>crafted over the years.</p>
+
+<!-- About me button -->
 </div>
 <button class="aboutme-btn">About Me</button>
 </div>
+
+<!-- Homepage salad image -->
 <div class="beige-right">
     <img src="Homepage-Salad-Image.png" alt="Salad Image">    
-      </div>
-  
-    </div> 
+</div>
+</div> 
+
+<!-- White rectangle -->
+<div class="repetitve-text-rectangle"></div>
   </body>
 </html>
 
