@@ -68,7 +68,7 @@
 .website-title {
   color: #587095; 
   text-align: center;
-  margin-top: -70px;
+  margin-top: 20px;
   padding: 0 40px;
 }
 
@@ -81,7 +81,7 @@
 .title-description  {
     color: #587095;
     text-align: center;
-    margin-top: 100px;
+    margin-top: 20px;
 }
 
 .title-description p {
@@ -114,7 +114,7 @@
   width: 1200px;
   height: 500px;
   background-color: #F3EBD8;
-  margin: 250px auto; 
+  margin: 180px auto 0; 
   display: flex;
   align-items: center;          
   justify-content: center;
@@ -171,10 +171,44 @@
   width: 1200px;
   height: 110px; 
   background-color: white;
-  margin: 40px auto 0;
+  margin: 0 auto;
   border: 3px solid #E1C1C6;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 40px; 
 }
-  
+
+.repetitive-text-rectangle {
+    width: 1200px;
+    height: 110px; 
+    background-color: white;
+    margin: 0 auto;
+    border: 3px solid #E1C1C6;
+
+    display: flex;
+    align-items: center;
+    justify-content: space-between; 
+    padding: 0 40px;
+}
+
+.text-group {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.text-group img {
+    width: 22px;
+    height: 22px;
+}
+
+.text-group span {
+    font-size: 24px;
+    font-family: Crimson Text;
+    color: #000;
+}
+    
   </style>
 </head>
 
@@ -237,7 +271,32 @@
 </div> 
 
 <!-- White rectangle -->
-<div class="repetitve-text-rectangle"></div>
+<div class="repetitve-text-rectangle">
+<div class="text-group">
+      <img src="flower-logo.png">
+      <span>Certified Foodie</span>
+    </div>
+
+    <div class="text-group">
+      <img src="flower-logo.png">
+      <span>Good Eats</span>
+    </div>
+
+    <div class="text-group">
+      <img src="flower-logo.png">
+      <span>Certified Foodie</span>
+    </div>
+
+    <div class="text-group">
+      <img src="flower-logo.png">
+      <span>Good Eats</span>
+    </div>
+
+  </div>
+
+
+
+    </div>
   </body>
 </html>
 
