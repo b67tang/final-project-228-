@@ -167,29 +167,19 @@
   margin-left: 20px;
 }
 
-.repetitve-text-rectangle {
-  width: 1200px;
-  height: 110px; 
-  background-color: white;
-  margin: 0 auto;
-  border: 3px solid #E1C1C6;
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-  padding: 0 40px; 
-}
-
 .repetitive-text-rectangle {
-    width: 1200px;
-    height: 110px; 
-    background-color: white;
-    margin: 0 auto;
-    border: 3px solid #E1C1C6;
+   width: 100%;
+   max-width: 1200px;
+   height: 110px;              
+   background-color: white;
+   margin: 0 auto;      
+   border: 3px solid #E1C1C6;
 
-    display: flex;
-    align-items: center;
-    justify-content: space-between; 
-    padding: 0 40px;
+   display: flex;
+   align-items: center;
+   justify-content: space-between;
+   padding: 0 40px;               
+   box-sizing: border-box;  
 }
 
 .text-group {
@@ -206,8 +196,71 @@
 .text-group span {
     font-size: 24px;
     font-family: Crimson Text;
-    color: #000;
+    color: #E1C1C6;
 }
+  
+.footer {
+    width: 100%;
+    max-width: 1200px;    
+    height: 500px;        
+    background-color: #FFF1B5;
+    margin: 0 auto;
+    position: relative; 
+}
+  
+  .footer-title {
+    position: absolute;
+    top: 50px;              
+    left: 75;                 
+    font-size: 60px;
+    font-family: 'Croissant One'; 
+    font-weight: bold;
+    color: #43302E;     
+}
+  
+.footer-image {
+    position: absolute;       
+    top: 150px;               
+    left: 75;                  
+    width: auto;              
+    height: 250px;           
+}
+  
+.blue-rectangle {
+    position: absolute;
+    top: 72.5px;           
+    left: 750;         
+    width: 350px;
+    height: 355px;
+    background-color: #C1DBE8;
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+  
+.blue-rectangle .title {
+    font-family: "Croissant One";
+    font-size: 20px;
+    margin-bottom: 20px;
+}
+
+.blue-rectangle .link {
+    font-family: "Croissant One";
+    font-size: 32px;
+    margin: 5px 0;
+}
+  
+.footer-bottom-text {
+    position: absolute;
+    bottom: 25px;
+    left: 75px;
+    font-size: 16px;
+    font-family: "Croissant One";
+    color: black;
+  }
     
   </style>
 </head>
@@ -271,29 +324,46 @@
 </div> 
 
 <!-- White rectangle -->
-<div class="repetitve-text-rectangle">
-<div class="text-group">
+<div class="repetitive-text-rectangle">
+  <div class="text-group">
       <img src="flower-logo.png">
       <span>Certified Foodie</span>
-    </div>
-
-    <div class="text-group">
-      <img src="flower-logo.png">
-      <span>Good Eats</span>
-    </div>
-
-    <div class="text-group">
-      <img src="flower-logo.png">
-      <span>Certified Foodie</span>
-    </div>
-
-    <div class="text-group">
-      <img src="flower-logo.png">
-      <span>Good Eats</span>
-    </div>
-
   </div>
 
+  <div class="text-group">
+      <img src="flower-logo.png">
+      <span>Good Eats</span>
+  </div>
+
+  <div class="text-group">
+      <img src="flower-logo.png">
+      <span>Certified Foodie</span>
+  </div>
+
+  <div class="text-group">
+      <img src="flower-logo.png">
+      <span>Good Eats</span>
+  </div>
+
+  <div class="text-group">
+      <img src="flower-logo.png">
+      <span>Certified Foodie</span>
+  </div>
+</div>
+    
+<!-- Footer -->
+<div class="footer">
+  <span class="footer-title">CRAFTED EATS</span>
+  <img src="fruits.png" alt="Fruits" class="footer-image">
+  <div class="blue-rectangle">
+    <div class="title">Quick Links</div>
+    <div class="link">Homepage</div>
+    <div class="link">About Me</div>
+    <div class="link">Eats</div>
+    <div class="link">Contact</div>
+  </div>
+    <span class="footer-bottom-text">Made by Bernice Tang</span>
+</div>
 
 
     </div>
