@@ -123,6 +123,152 @@ opacity: 0.7;
   margin-bottom: 20px;
 }
 
+/* brown repetitive rectangle */
+.repetitive-text-rectangle {
+    width: 100%;
+    max-width: 1200px;
+    height: 110px;              
+    background-color: white;
+    margin: 100px auto;      
+    border: 3px solid #43302E;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 40px;               
+    box-sizing: border-box;  
+  }
+
+  .text-group {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+  }
+
+  .text-group img {
+    width: 22px;
+    height: 22px;
+  }
+
+  .text-group span {
+    font-size: 24px;
+    font-family: Crimson Text;
+    color: #43302E;
+  }
+
+/* My story section */
+.blue-rectangle {
+    width: 100%;
+    max-width: 1200px;
+    height: 750px;         
+    background-color: #C1DBE8;
+    margin: 110px auto 0;
+    position: relative;
+}
+  
+.beige-rectangle {
+    width: 600px;
+    height: 400px;
+    background-color: #F3EBD8;
+    border-radius: 20px;
+    position: absolute;
+    top: 175px;      
+    right: 50px;   
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.beige-rectangle img {
+    max-height: 350px;
+    width: auto;
+    border-radius: 20px;
+}
+
+.story-text {
+    position: absolute;
+    left: 50px;
+    top: 100px;  
+    width: 450px;
+    color: black;
+    text-align: center;
+}
+
+.story-text h1 {
+    font-size: 60px;
+    font-family: "Bagel Fat One";
+    margin-bottom: 20px;
+}
+
+.story-text p {
+    font-size: 18px;
+    line-height: 1.5;
+    font-family: Crimson Text;
+}
+  
+/* Footer Section */
+.footer {
+  width: 100%;
+  max-width: 1200px;    
+  height: 500px;        
+  background-color: #FFF1B5;
+  margin: 0 auto;
+  position: relative; 
+}
+
+.footer-title {
+  position: absolute;
+  top: 50px;              
+  left: 75px;                 
+  font-size: 60px;
+  font-family: 'Croissant One'; 
+  font-weight: bold;
+  color: #43302E;     
+}
+
+.footer-image {
+  position: absolute;       
+  top: 150px;               
+  left: 75px;                  
+  width: auto;              
+  height: 250px;           
+}
+
+.footer .blue-rectangle {
+  position: absolute;
+  top: -25px;           
+  left: 750px;         
+  width: 350px;
+  height: 355px;
+  background-color: #C1DBE8;
+  border-radius: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+
+.footer .blue-rectangle .title {
+  font-family: "Croissant One";
+  font-size: 20px;
+  margin-bottom: 20px;
+}
+
+.footer .blue-rectangle .link {
+  font-family: "Croissant One";
+  font-size: 32px;
+  margin: 5px 0;
+}
+
+.footer-bottom-text {
+  position: absolute;
+  bottom: 25px;
+  left: 75px;
+  font-size: 16px;
+  font-family: "Croissant One";
+  color: black;
+}
+  
 </style>
 </head>
 
@@ -161,10 +307,72 @@ opacity: 0.7;
           Hope you enjoy exploring around.
         </p>
       </div>
+
+<!-- brown rectangle -->
+  <div class="repetitive-text-rectangle">
+    <div class="text-group">
+      <img src="brown-flower.png">
+      <span>UX Student</span>
+    </div>
+
+    <div class="text-group">
+      <img src="brown-flower.png">
+      <span>Explore Recipes</span>
+    </div>
+
+    <div class="text-group">
+      <img src="brown-flower.png">
+      <span>UX Student</span>
+    </div>
+
+    <div class="text-group">
+      <img src="brown-flower.png">
+      <span>Explore Recipes</span>
+    </div>
+
+    <div class="text-group">
+      <img src="brown-flower.png">
+      <span>UX Student</span>
+    </div>
+  </div>
 </div>
   
+<!-- my story section -->
+<div class="blue-rectangle">
+
+  <div class="story-text">
+    <h1>My Story</h1>
+    <p>
+      My story in the kitchen started when I was six, standing on a little stool so I could actually reach the counter. I learned most of what I know by watching the people around me — my mom, my nanny, my grandmas, and honestly any elder who was down to let me hover over their shoulder while they cooked.
+    </p>
+    <p>
+      They taught me the basics, the tricks, the little unspoken things that never show up in recipes. And as I got older, I started branching out on my own — trying new cuisines, experimenting with flavors, and figuring out what kind of food feels like ‘me.’
+    </p>
+    <p>
+      Cooking has always been this mix of family, curiosity, and creativity for me, and it’s something I’ve carried with me ever since.
+    </p>
+  </div>
+
+  <div class="beige-rectangle">
+    <img src="baby.jpeg" alt="Beige Image">
+  </div>
+
+</div> 
   
-  
-  
-  </body>
+<!-- Footer -->
+<div class="footer">
+  <span class="footer-title">CRAFTED EATS</span>
+  <img src="fruits.png" alt="Fruits" class="footer-image">
+  <div class="blue-rectangle">
+    <div class="title">Quick Links</div>
+    <div class="link">Homepage</div>
+    <div class="link">About Me</div>
+    <div class="link">Eats</div>
+    <div class="link">Contact</div>
+  </div>
+  <span class="footer-bottom-text">Made by Bernice Tang</span>
+</div>
+
+</div>
+</body>
 </html>
