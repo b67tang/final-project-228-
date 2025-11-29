@@ -1,3 +1,170 @@
-different stuff
+<!DOCTYPE html>
+<html lang="en.CA">
+  <head>
+    <title>Crafted Kitchen</title>
+    <link href="https://fonts.googleapis.com/css2?family=Bagel+Fat+One&display=swap" rel="stylesheet"> 
+<style>
+  html {
+    width: 1440px;
+  }
+  
+  body {
+  width: 1200px;
+  margin: 0 auto;
+  padding: 0;
+  background-color: white;
+  font-family: Crimson Text; 
+}
 
-<a href="index.html">index</a>
+/* Container, Margin */
+.container {
+  width: 100%;
+  margin: 0 auto;          
+  padding: 0 20px;         
+}
+
+.nav-wrapper {
+display: flex;
+align-items: center;
+padding: 10px 0;
+}
+
+
+/* space for star logo */
+.logo-space {
+width: 150px;
+height: auto;
+margin-right: 20px;
+}
+
+
+/* Nav Bar */
+.navbar {
+background-color: #FFF1B5;
+padding: 14px 0;
+border-radius: 30px;
+flex-grow: 1;
+}
+
+
+/* evenly spaced links */
+.navbar ul {
+list-style: none;
+margin: 0;
+padding: 0 40px;
+display: flex;
+justify-content: space-between;
+align-items: center;
+}
+
+
+.navbar li a {
+text-decoration: none;
+color: black;
+font-size: 17px;
+}
+
+
+.navbar li a:hover {
+opacity: 0.7;
+}
+
+/* Who am I section */ 
+.yellow-rectangle {
+  width: 1200px;
+  height: 500px;
+  background-color: #FFF1B5;
+  position: relative;
+  margin-top: 50px;          
+}
+
+.brown-rectangle {
+  width: 600;
+  height: 400;
+  background-color: #43302E;
+  border-radius: 20px;
+  position: relative;
+  top: 50px;
+  left: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.selfie img {
+  max-height: 350px;
+  height: auto;
+  width: auto;
+  border-radius: 20px;
+  position: static;
+}
+  
+.whoami {
+  position: absolute;
+  right: 50px;
+  top: 60px;
+  width: 450px;
+  color: black; 
+}
+
+.whoami h1 {
+  font-size: 60px;
+  font-family: "bagel fat one";
+  margin-bottom: 0px;
+  text-align: center;
+  margin-top: -30px;
+}
+  
+.whoami p {
+  font-size: 18px;
+  line-height: 1.5;
+  font-family: Crimson Text;
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+</style>
+</head>
+
+<body>
+<div class="container">
+
+<div class="nav-wrapper">
+<img class="logo-space" src="StarLogo.png" alt="Logo">
+
+
+<nav class="navbar">
+<ul>
+<li><a href="homepage.html">Home</a></li>
+<li><a href="about.html">About me</a></li>
+<li><a href="gallery.html">Gallery</a></li>
+<li><a href="contact.html">Contact</a></li>
+</ul>
+</nav>
+</div>  
+  
+<div class="yellow-rectangle">
+  <div class="brown-rectangle">
+    <div class="selfie">
+      <img src="selfie.jpeg" alt="selfie">
+    </div>
+   </div>
+  <div class="whoami">
+        <h1>Who am I?</h1>
+        <p>
+          Welcome to my site! My name is Bernice and I’m someone who loves creating things 
+          that feel cozy, intentional, and a little bit fun. Outside of the kitchen, I’m 
+          always experimenting — whether that’s trying new hobbies, making things look 
+          aesthetic, or just learning whatever catches my brain that week.<br><br>
+          This space is basically my little corner of the internet where I get to share 
+          what I’ve made, how I’ve grown, and the things that inspire me. 
+          Hope you enjoy exploring around.
+        </p>
+      </div>
+</div>
+  
+  
+  
+  
+  </body>
+</html>
